@@ -1,0 +1,29 @@
+name: Run iOS Unit Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    name: Unit Tests
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -s /Applications/Xcode.app
+
+      - name: Run xcodebuild Unit Tests
+        run: |
+          xcodebuild test \
+            -project MindMateAIApp/MindMateAIApp.xcodeproj \
+            -scheme MindMateAIApp \
+            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -only-testing:MindMateAIAppTests \
+            -resultBundlePath TestResults.xcresult \
+            -quiet
