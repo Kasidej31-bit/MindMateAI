@@ -23,7 +23,9 @@ jobs:
           xcodebuild test \
             -project MindMateAIApp/MindMateAIApp.xcodeproj \
             -scheme MindMateAIApp \
-            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            -destination 'platform=iOS Simulator,name=iPad (A16)' \
             -only-testing:MindMateAIAppTests \
-            -resultBundlePath TestResults.xcresult \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
             -quiet
