@@ -1,7 +1,7 @@
+# MindMateAI
+
 ![Unit Tests](https://github.com/Kasidej31-bit/MindMateAI/actions/workflows/unit-tests.yml/badge.svg)
 
-# MindMateAI
-MindMateAI
 MindMateAI is a privacy-focused iOS wellness application built with SwiftUI. It helps users record their daily moods, write journal entries, view mood history and trends, receive positive encouragement, and schedule daily reflection reminders.
 
 Note: This project was created as a portfolio project to demonstrate iOS development skills, UI design, data persistence, and Apple platform technologies.
