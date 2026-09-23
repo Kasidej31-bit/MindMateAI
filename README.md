@@ -25,13 +25,13 @@ MindMateAI is a privacy-focused iOS wellness application built with SwiftUI. It 
 
 ## Screenshots
 
-| Login | | Home | Mood Check-in | Journal |
-| :---: | :---: | :---: | | :---: |
-|  | *Add image here* | *Add image here* |  | *Add image here* |
+| Login | Home | Mood Check-in |
+| :---: | :---: | :---: |
+| <img src="MindMateAI-login.png" width="250" /> | <img src="MindMateAI-home.png" width="250" /> | <img src="MindMateAI-Mood.jpg" width="250" /> |
 
 | Mood History | Mood Trends | Settings |
 | :---: | :---: | :---: |
-| *Add image here* | *Add image here* | *Add image here* |
+| <img src="MindMateAI-mood-tracking.png" width="250" /> | <img src="MindMateAI-mood-trend.png" width="250" /> | <img src="MindMateAI-setting.png" width="250" /> |
 
 ---
 
